@@ -1,0 +1,8 @@
+#!/usr/bin/env node
+
+const bakon = require("@xibakon/cli-core");
+
+bakon
+	.run()
+	.then(require("@xibakon/cli-core/flush"))
+	.catch(require("@xibakon/cli-core/handle"));
