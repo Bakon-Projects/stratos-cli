@@ -1,15 +1,18 @@
 {
-	"name": "stratos",
+	"name": "@xibakon/stratos",
 	"version": "1.0.0",
 	"description": "FOR XIBAKON ONLY. PERSONAL PROJECT",
 	"author": "xibakon @XiBakon",
 	"bin": {
 		"stratos": "./bin/run"
 	},
-	"homepage": "https://github.com/XiBakon/stratos_cli",
+	"publishConfig": {
+		"access": "public"
+	},
+	"homepage": "https://github.com/bakon-projects/stratos_cli",
 	"license": "MIT",
 	"main": "dist/index.js",
-	"repository": "XiBakon/stratos_cli",
+	"repository": "bakon-projects/stratos_cli",
 	"files": [
 		"/bin",
 		"/dist",
@@ -93,7 +96,7 @@
 	"engines": {
 		"node": ">=12.0.0"
 	},
-	"bugs": "https://github.com/XiBakon/stratos_cli/issues",
+	"bugs": "https://github.com/bakon-projects/stratos_cli/issues",
 	"keywords": [
 		"oclif"
 	],

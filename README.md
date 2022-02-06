@@ -2,11 +2,9 @@
 
 Custom CLI for XiBakon
 
-[![oclif](https://img.shields.io/badge/cli-oclif-brightgreen.svg)](https://oclif.io)
-[![Version](https://img.shields.io/npm/v/oclif-hello-world.svg)](https://npmjs.org/package/oclif)
-[![CircleCI](https://circleci.com/gh/oclif/hello-world/tree/main.svg?style=shield)](https://circleci.com/gh/oclif/hello-world/tree/main)
-[![Downloads/week](https://img.shields.io/npm/dw/oclif-hello-world.svg)](https://npmjs.org/package/oclif-hello-world)
-[![License](https://img.shields.io/npm/l/oclif-hello-world.svg)](https://github.com/oclif/hello-world/blob/main/package.json)
+[![Stratos](https://img.shields.io/badge/cli-stratos-brightgreen.svg)](https://github.com/bakon-projects/stratos-cli)
+[![Version](https://img.shields.io/npm/v/stratos.svg)](https://npmjs.org/package/@xibakon/stratos)
+[![License](https://img.shields.io/npm/l/stratos.svg)](https://github.com/bakon-projects/stratos-cli/blob/main/package.json)
 
 <!-- toc -->
 
@@ -20,11 +18,11 @@ Custom CLI for XiBakon
 <!-- usage -->
 
 ```sh-session
-$ npm install -g stratos
+$ npm install -g @xibakon/stratos
 $ stratos COMMAND
 running command...
 $ stratos (--version)
-stratos/1.0.0 darwin-arm64 node-v16.13.1
+@xibakon/stratos/1.0.0 darwin-arm64 node-v16.13.1
 $ stratos --help [COMMAND]
 USAGE
   $ stratos COMMAND
@@ -37,9 +35,6 @@ USAGE
 
 <!-- commands -->
 
--   [`stratos app next`](#stratos-app-next)
--   [`stratos app react`](#stratos-app-react)
--   [`stratos dobby`](#stratos-dobby)
 -   [`stratos help [COMMAND]`](#stratos-help-command)
 -   [`stratos plugins`](#stratos-plugins)
 -   [`stratos plugins:inspect PLUGIN...`](#stratos-pluginsinspect-plugin)
@@ -47,39 +42,6 @@ USAGE
 -   [`stratos plugins:link PLUGIN`](#stratos-pluginslink-plugin)
 -   [`stratos plugins:uninstall PLUGIN...`](#stratos-pluginsuninstall-plugin)
 -   [`stratos plugins update`](#stratos-plugins-update)
--   [`stratos smokinbs admin`](#stratos-smokinbs-admin)
--   [`stratos smokinbs api`](#stratos-smokinbs-api)
--   [`stratos smokinbs foodtruck`](#stratos-smokinbs-foodtruck)
--   [`stratos smokinbs main`](#stratos-smokinbs-main)
-
-## `stratos app next`
-
-```
-USAGE
-  $ stratos app next -n <value>
-
-FLAGS
-  -n, --name=<value>  (required)
-```
-
-## `stratos app react`
-
-```
-USAGE
-  $ stratos app react -n <value>
-
-FLAGS
-  -n, --name=<value>  (required)
-```
-
-## `stratos dobby`
-
-```
-USAGE
-  $ stratos dobby
-```
-
-_See code: [dist/commands/dobby.ts](https://github.com/XiBakon/stratos_cli/blob/v1.0.0/dist/commands/dobby.ts)_
 
 ## `stratos help [COMMAND]`
 
@@ -245,46 +207,6 @@ FLAGS
 
 DESCRIPTION
   Update installed plugins.
-```
-
-## `stratos smokinbs admin`
-
-```
-USAGE
-  $ stratos smokinbs admin [-t]
-
-FLAGS
-  -t, --testing
-```
-
-## `stratos smokinbs api`
-
-```
-USAGE
-  $ stratos smokinbs api [-t]
-
-FLAGS
-  -t, --testing
-```
-
-## `stratos smokinbs foodtruck`
-
-```
-USAGE
-  $ stratos smokinbs foodtruck [-t]
-
-FLAGS
-  -t, --testing
-```
-
-## `stratos smokinbs main`
-
-```
-USAGE
-  $ stratos smokinbs main [-t]
-
-FLAGS
-  -t, --testing
 ```
 
 <!-- commandsstop -->
