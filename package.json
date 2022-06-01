@@ -41,7 +41,7 @@
 		"@types/adm-zip": "^0.4.34",
 		"@types/chai": "^4",
 		"@types/chalk-animation": "^1.6.1",
-		"@types/cli-progress": "^3.9.2",
+		"@types/cli-progress": "^3.11.0",
 		"@types/ejs": "^3.1.0",
 		"@types/figlet": "^1.5.4",
 		"@types/fs-extra": "^9.0.13",
