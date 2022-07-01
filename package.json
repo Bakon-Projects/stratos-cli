@@ -51,7 +51,7 @@
 		"@types/mocha": "^9.0.0",
 		"@types/node": "^16.9.4",
 		"@types/node-fetch": "^3.0.3",
-		"@types/semver": "^7.3.9",
+		"@types/semver": "^7.3.10",
 		"@types/wrap-ansi": "^8.0.1",
 		"abort-controller": "^3.0.0",
 		"chai": "^4",
